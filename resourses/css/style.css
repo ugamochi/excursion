@@ -4,9 +4,24 @@ html {
   background-color: black;
 }
 
+h1, h2 {
+  color: white;
+}
+
 h1 {
   font-size: 3.125rem;
-  color: white;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.625rem;
+  font-weight: 300;
+  font-weight: normal;
+}
+
+h3 {
+  color: grey;
+  font-size: 1.3125;
   font-weight: normal;
 }
 
@@ -15,6 +30,24 @@ a {
   font-size: 1rem;
 }
 
+img {
+  margin: 30px;
+}
+
 .center {
   text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
+
+#iphone {
+  display: block;
+  margin: 30px auto;
+}
+
+#personal_guide {
+  display: block;
+  margin: 30px auto;
 }
